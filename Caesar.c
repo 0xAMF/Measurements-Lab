@@ -65,7 +65,7 @@ void encrypt(char *txt, int key){
          }
         else
         {
-            txt[i] = txt[i] + key;
+            txt[i] = txt[i];
         }
         ++i;
     }
